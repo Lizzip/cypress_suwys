@@ -1,0 +1,23 @@
+{
+  "name": "cypress_suwys",
+  "version": "1.0.0",
+  "description": "UI Testing of Show Us What You Saw website using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "tests": "cypress run --browser chrome --spec \"cypress/e2e/tests/*.cy.js\"",
+    "tests-electron": "cypress run --spec \"cypress/e2e/tests/*.cy.js\"",
+    "tests-firefox": "cypress run --browser firefox --spec \"cypress/e2e/tests/*.cy.js\"",
+    "tests-edge": "cypress run --browser edge --spec \"cypress/e2e/tests/*.cy.js\"",
+    "cypress": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^15.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0"
+  }
+}
